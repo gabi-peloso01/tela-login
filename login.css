@@ -1,0 +1,61 @@
+html{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #a3b0e5;
+}
+h1{
+    margin: 0;
+}
+.texto-login{
+    font-size: 55px;
+    margin: 0;
+}
+
+.quadro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 5px solid;
+    padding: 60px 50px;
+    color: rgb(31, 38, 132);
+    background-color: rgb(188, 222, 237);
+}
+
+.input-login{
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 2px rgb(67, 67, 179);
+    transition: all 0.5s ease;
+
+}
+
+.actions{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.botao-login{
+    height: 50px;
+    width: 100px;
+    background: rgb(212, 254, 241);
+    border-radius: 5px 25px;
+    border-color: rgb(55, 130, 130);
+}
+
+.botao-login:hover{
+    background: rgb(36, 47, 107);
+    color: rgb(178, 253, 248);
+    border-color: rgb(197, 255, 236);
+}

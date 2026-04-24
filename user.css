@@ -1,0 +1,64 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 234, 203);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 25px black;
+
+    border: 3px solid rgb(111, 77, 25);
+    padding: 35px;
+    color: rgb(126, 86, 27);
+    background-color: rgb(255, 252, 215);
+    border-radius: 30px;
+    
+    
+}
+
+.xuxa{
+    width: 210px;
+    height: 260px;
+    border-radius: 50%;
+    border: 5px solid rgb(82, 69, 34);
+}
+
+.username{
+    margin: 0;
+}
+
+.bio{
+    margin: 0;
+    font-style: oblique;
+}
+
+.topicos{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid ;
+    
+}
+
+.logout{
+    background-color: rgb(76, 57, 39);
+    color: rgb(254, 224, 171);
+    border: 3px solid rgb(215, 197, 169);
+    border-radius: 10px 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logout:hover{
+    background-color: rgb(255, 236, 208);
+    color: rgb(86, 61, 33);
+    border: 3px solid rgb(122, 104, 78);
+    border-radius: 4px 10px;
+    transition: all 1s;
+}
